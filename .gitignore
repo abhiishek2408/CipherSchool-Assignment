@@ -1,0 +1,13 @@
+# Common ignores
+node_modules/
+.env*
+
+# Frontend
+/frontend/build/
+/frontend/node_modules/
+/frontend/.env
+
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+/backend/logs/

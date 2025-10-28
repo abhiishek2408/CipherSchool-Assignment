@@ -1,4 +1,4 @@
-const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5000/api";
+const API_BASE = process.env.REACT_APP_API_URL || "https://cipherschool-assignment-pmc1.onrender.com/api";
 
 function getToken() {
   return localStorage.getItem("cipherstudio_token");

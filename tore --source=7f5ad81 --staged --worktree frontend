@@ -1,0 +1,23 @@
+[33mcommit 7f5ad813e3d71d3b7eaeca4afc0b84eb12aab2d8[m
+Author: unknown <abhishekydv2408@gmail.com>
+Date:   Tue Oct 28 20:48:36 2025 +0530
+
+    first commit
+
+.gitignore
+backend/.gitignore
+backend/config/db.js
+backend/controllers/authController.js
+backend/controllers/projectController.js
+backend/generateSecret.js
+backend/middleware/auth.js
+backend/middleware/errorHandler.js
+backend/models/Project.js
+backend/models/User.js
+backend/package-lock.json
+backend/package.json
+backend/routes/auth.js
+backend/routes/previewRoute.js
+backend/routes/projects.js
+backend/server.js
+frontend

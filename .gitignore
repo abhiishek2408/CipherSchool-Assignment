@@ -1,28 +1,13 @@
-# === Root & Node ignore ===
+# Common ignores
 node_modules/
-dist/
-build/
-.env
-*.log
-logs/
-.cache/
-coverage/
+.env*
 
-# === Ignore inside frontend but keep code ===
-frontend/node_modules/
-frontend/build/
-frontend/.env
-frontend/.cache/
-frontend/coverage/
+# Frontend
+/frontend/build/
+/frontend/node_modules/
+/frontend/.env
 
-# === Ignore inside backend but keep code ===
-backend/node_modules/
-backend/dist/
-backend/.env
-backend/logs/
-
-# === System & IDE ===
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+/backend/logs/
